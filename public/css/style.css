@@ -1,0 +1,75 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+.autorization {
+  position: relative;
+  max-width: 416px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: rgba(93, 117, 226);
+  margin: 20px auto;
+}
+
+.authentication__padding {
+  padding: 4px;
+}
+
+#login {
+  width: 100%;
+  background: #f5f6f7;
+  padding: 15px;
+  border-radius: 15px;
+  letter-spacing: 2px;
+}
+#login::placeholder {
+  font-size: 17px;
+}
+
+#pass {
+  width: 100%;
+  background: #f5f6f7;
+  padding: 15px;
+  border-radius: 15px;
+  letter-spacing: 2px;
+}
+#pass::placeholder {
+  font-size: 17px;
+}
+
+.autorization__btn {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  background-color:rgba(93, 117, 226);
+  padding: 13px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.message__error {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(1123, 123, 123, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: cursive;
+  font-size: 22px;
+}
